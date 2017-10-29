@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    border: 20px solid #070b57;
+    background: #3a44ff;
+    box-sizing: border-box;
+}
+ul {
+    width: 70%;
+    margin: 100px auto;
+    background: #ffffff;
+    font-size: 0;
+    padding: 3px;
+}
+li {
+    /*width: 25%;*/
+    width: calc(25% - 6px);
+    /*border: 3px solid #fff;*/
+    margin: 3px;
+    /*box-sizing: border-box;*/
+    height: 60px;
+    display: inline-block;
+    background: #333;
+    font-size: 16px;
+}
+ul:hover li {
+    opacity: .7;
+}
+ul li:hover {
+    opacity: 1;
+}
+/*my styles*/
+.w50 {
+    /*width: 50%;*/
+    width: calc(50% - 6px);
+}
+.w100 {
+    /*width: 100%;*/
+    width: calc(100% - 6px);
+}
+/*my styles*/
