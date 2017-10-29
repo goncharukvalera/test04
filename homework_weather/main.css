@@ -22,7 +22,7 @@ li {
     /*box-sizing: border-box;*/
     height: 60px;
     display: inline-block;
-    background: #444;
+    background: #555;
     font-size: 16px;
 }
 ul:hover li {
